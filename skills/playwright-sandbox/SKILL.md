@@ -1,7 +1,6 @@
 ---
 name: playwright-sandbox
 description: Make Playwright/Chromium load pages inside a Claude Code cloud sandbox, where every navigation otherwise fails with net::ERR_CONNECTION_RESET. Use whenever browser automation is needed in a remote/cloud container and page.goto fails, hangs, or returns an error page — including when the browser "can't reach the internet" but curl works fine, or when a site returns 403 only to the browser. TRIGGER when the user says "playwright doesn't work", "the browser can't load any page", "ERR_CONNECTION_RESET", or asks to set up browser automation in a cloud session.
-user-invocable: true
 allowed-tools: [Bash, Read, Write, Edit]
 ---
 
