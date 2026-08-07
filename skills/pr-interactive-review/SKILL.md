@@ -1,8 +1,6 @@
 ---
 name: pr-interactive-review
 description: Interactive code review walkthrough for a GitHub PR. Takes a PR link as input, fetches the branch into a git worktree, and walks the reviewer through the changes step by step — explaining context, showing code with diffs, surfacing decisions and risks, and collecting review comments. At the end, offers to post the review to GitHub. Use when conducting a thorough code review or exploring PR changes. TRIGGER when user says "review this PR", "walk me through this PR", "review PR https://...", or provides a GitHub PR URL.
-user-invocable: true
-argument-hint: <GitHub PR URL>
 allowed-tools: [Bash, Read, Write, Grep]
 ---
 
